@@ -1,0 +1,4 @@
+:name "scanny_edts"
+:node-sname "scanny_edts"
+:app-include-dirs '("include" "src")
+:lib-dirs '("deps")

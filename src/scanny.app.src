@@ -1,0 +1,13 @@
+{application, scanny,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inotify
+                 ]},
+  {mod, { scanny_app, []}},
+  {env, []}
+ ]}.
